@@ -68,13 +68,13 @@ features or board support. Currently the external trees are:
 
 -  `PX4NuttX <https://github.com/ArduPilot/PX4NuttX>`__ - the core NuttX
    RTOS used on Pixhawk boards
+-  `ChibiOS <https://github.com/ArduPilot/ChibiOS>`__ - RTOS used on STM32 boards
 -  `PX4Firmware <https://github.com/ArduPilot/PX4Firmware>`__ - the base
    PX4 middleware and drivers used on Pixhawk boards
 -  `uavcan <https://github.com/ArduPilot/uavcan>`__ - the uavcan CANBUS
    implementation used in ArduPilot
 -  `mavlink <https://github.com/mavlink/mavlink>`__ - the mavlink
    protocol and code generator
-
 .. note::
 
    Most of these are imported as :ref:`Git Submodules <git-submodules>` when you :ref:`build ArduPilot <building-the-code>`.
